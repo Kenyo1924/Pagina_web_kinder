@@ -1,0 +1,83 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+/* navbar */
+#cont-nav {
+  animation-timeline: scroll(root block);
+  animation-name: show;
+  width: 100%;
+}
+
+@keyframes show {
+  0% {
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+
+  10% {
+    background-color: rgba(155, 155, 155, 0.75);
+  }
+
+  100% {
+    background-color: rgba(155, 155, 155, 0.75);
+  }
+
+}
+
+#logo {
+  width: 80%;
+}
+
+#icon-nav {
+  box-shadow: 3px 3px 5px #332FD0;
+  background-color: #6e78ff;
+}
+
+#nav-link-nav {
+  color: black;
+  font-weight: 600;
+}
+
+#nav-link-nav {
+  transition: all 0.5s;
+}
+
+#nav-link-nav:hover {
+  color: #6e78ff;
+  transform: scale(1.15);
+}
+
+@media (max-width: 767px) {
+  #nav-link-nav:hover {
+    color: #6e78ff;
+    transform: translateY(-10%);
+  }
+}
+
+/* Footer -------------------------------------------------------------------*/
+
+/* Footer principal */
+#footer {
+  background-color: #6e78ff;
+}
+
+#titulo-footer,
+#text-footer {
+  color: white;
+}
+
+/* Footer sobre nosotros*/
+#footer-SN {
+  background-color: #6e78ff;
+}
+
+/* Footer matricula*/
+#footer-M {
+  background-color: #6e78ff;
+}
+
+/* Footer galeria*/
+#footer-G {
+  background-color: #6e78ff;
+}

@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="css/css.css" />
+  <link rel="stylesheet" href="css/galeria.css">
+  <title>Galeria de fotos</title>
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top" aria-label="Offcanvas navbar large" id="cont-nav">
+    <div class="container px-5">
+      <a class="navbar-brand" href="#"><img id="logo" src="imagenes/Logo.png" /></a>
+      <button id="icon-nav" class="navbar-toggler p-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-label="Toggle navigation">
+
+        <span class="text-center" style="color: white;">Menú</span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarHeader">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-nav" href="Principal.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-nav" href="SobreNosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-nav" href="Matricula.html">Matrícula</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-nav" href="Galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-link-nav" href="#footer-G">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- imagen y descripcion-->
+
+  <div class="container-fluid" id="fondoportada-galeria">
+    <div class="container p-5">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 col-lg-6 text-white" id="contenido-texto-portada-galeria">
+          <h1 class="text-center" id="titulo-galeria">RECORDAR ES VOLVER A VIVIR</h1>
+          <p class=" fst-italic text-center" id="text-galeria">"Mira nuestras fotos y revive los instantes que inspiran
+            el amor por aprender y compartir."</p>
+        </div>
+        <div class="imgp col-12 col-md-6 col-lg-6 text-white p-5">
+          <img class="rounded float-end" id="imgportada-galeria" src="imagenes/portada-07.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel1-BUEN INCIO ESCOLAR -->
+
+  <div class="container p-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Buen inicio del año escolar</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/4.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/5.jpeg" class="card-img-top" alt="...">
+            </div> -->
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/6.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/7.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Buen inicio del año escolar/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/4.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/5.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/6.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/7.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/8.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Buen inicio del año escolar/9.jpeg " class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel2-SEMANA DE LA EDUCACIÓN -->
+
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Semana de la educación inicial</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying2" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/4.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/5.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/6.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/7.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Celebrando la semana de la educación inicial/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying2"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying2"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen2" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Celebrando la semana de la educación inicial/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen2"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen2"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel3-DIA DE LA MADRE -->
+
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Día de la madre</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying3" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/4.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/5.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/6.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/7.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Dia de la madre/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying3"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying3"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen3" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Dia de la madre/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen3"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen3"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel4-DIA DEL LA TIERRA -->
+
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Día de la tierra</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying4" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/4.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/5.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/6.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/7.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día de la tierra/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying4"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying4"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen4" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día de la tierra/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen4"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen4"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel5-DIA DEL CAMPESINO -->
+
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Día del campesino</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying5" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/3.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/4.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/5.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/6.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/7.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del campesino/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying5"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying5"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen5" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del campesino/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen5"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen5"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel6-DIA DEL PADRE -->
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Día del padre</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying6" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/4.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/5.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/6.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+
+        <!-- <div class="carousel-item"> -->
+        <!-- <div class="cards-wrapper"> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/7.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Día del padre/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying6"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying6"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen6" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Día del padre/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen6"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen6"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- fotos-carrusel7-FESTIVAL DE LECTURA -->
+
+  <div class="container px-5 pb-5">
+    <div class="container pb-5">
+      <h1 class="text-center" id="title-galeria">Festival de lectura</h1>
+    </div>
+
+    <div id="carouselExampleAutoplaying7" class="carousel slide d-none d-sm-block" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/1.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/2.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/3.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/4.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/5.jpeg" class="card-img-top" alt="...">
+            </div>
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/6.jpeg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="cards-wrapper">
+            <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/7.jpeg" class="card-img-top" alt="...">
+            </div>
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/8.jpeg" class="card-img-top" alt="...">
+            </div> -->
+            <!-- <div class="card" id="card-galeria">
+              <img src="imagenes/Festival de la lectura/9.jpeg" class="card-img-top" alt="...">
+            </div> -->
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying7"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying7"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div id="carouselExampleAutoplayingSmallScreen7" class="carousel slide d-sm-none" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/1.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/2.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/3.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/4.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/5.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/6.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/7.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/8.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+        <!-- <div class="carousel-item">
+          <div class="card" id="card-galeria">
+            <img src="imagenes/Festival de la lectura/9.jpeg" class="card-img-top" alt="...">
+          </div>
+        </div> -->
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen7"
+        data-bs-slide="prev">
+        <i class="bi bi-chevron-compact-left" id="icon-galeria"></i>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplayingSmallScreen7"
+        data-bs-slide="next">
+        <i class="bi bi-chevron-compact-right" id="icon-galeria"></i>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+
+  <footer class="pt-5 pb-4" id="footer-G">
+    <div class="container px-5">
+      <div class="row">
+        <!-- Enlaces rápidos -->
+        <div class="col-lg-3 col-md-6 col-sm-6 px-5 px-md-5 px-lg-5">
+          <h5 id="titulo-footer">Enlaces Rápidos</h5>
+          <ul class="list-unstyled" id="text-footer">
+            <li class="nav-item">
+              <a class="nav-link" href="Principal.html">
+                <i class="bi bi-house-fill" id="text-enlaces-rapidos"></i> Inicio
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="SobreNosotros.html">
+                <i class="bi bi-file-person-fill" id="text-enlaces-rapidos"></i> Sobre Nosotros
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Matricula.html">
+                <i class="bi bi-mortarboard-fill" id="text-enlaces-rapidos"></i> Matrícula
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Galeria.html">
+                <i class="bi bi-image-fill" id="text-enlaces-rapidos"></i> Galería de fotos
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Información de contacto -->
+        <div class="col-lg-3 col-md-6 col-sm-6 px-5 px-md-5 px-lg-5">
+          <h5 id="titulo-footer">Contacto</h5>
+          <ul class="list-unstyled" id="text-footer">
+            <li>
+              <i class="bi bi-geo-alt-fill"></i> Pablo Neruda 132, El Tambo - Huancayo
+            </li>
+            <li><i class="bi bi-telephone-fill"></i> +51 979 029 882</li>
+          </ul>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div class="col-lg-3 col-md-6 col-sm-6 px-5 px-md-5 px-lg-5">
+          <h5 id="titulo-footer">Síguenos</h5>
+          <ul class="list-inline" id="text-footer">
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/profile.php?id=61578072090048" class="text-white" target="_blank"><i
+                  class="bi bi-facebook fs-4"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- maps -->
+        <iframe class="col-lg-3 col-md-6 col-sm-6 px-5 px-md-5 px-lg-5"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.9200264380456!2d-75.22895042536598!3d-12.04901554194181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x910e96183ecc3c17%3A0x5bc12a22675d1fae!2sPablo%20Neruda%20132%2C%20Huancayo%2012006!5e0!3m2!1ses-419!2spe!4v1741391676434!5m2!1ses-419!2spe"
+          width="100%" height="auto">
+        </iframe>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

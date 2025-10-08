@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Principal -----------------------------------------------------------------*/
+
+#fondoportada {
+  background-color: #6e78ff;
+}
+
+#titulo-portada {
+  color: white;
+  font-size: 46px;
+  font-weight: 700;
+}
+
+#titulo-portada2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+#imgportada {
+  width: 70%;
+  height: auto;
+  animation-name: cambiar-tam;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cambiar-tam {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 991px) {
+  #imgportada {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#contenido-texto-portada {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+@media (max-width: 767px) {
+  #contenido-texto-portada {
+    padding-top: 48px;
+    padding-bottom: 0px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+/* edades */
+
+#fondo-edades {
+  background: white;
+}
+
+#titulo-edades {
+  color: black;
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Lobster", sans-serif;
+}
+
+#text-edades {
+  font-size: 20px;
+  text-align: center;
+}
+
+#card1-edades {
+  background-color: #ecab0f;
+  box-shadow: 8px 8px #d09306;
+}
+
+#card2-edades {
+  background-color: #89d631;
+  box-shadow: 8px 8px #5ab507;
+}
+
+#card3-edades {
+  background-color: #0cb7f2;
+  box-shadow: 8px 8px #0979b0;
+}
+
+#card-title-edades {
+  color: white;
+}
+
+#img-edades {
+  border-radius: 8px;
+}
+
+/* talleres */
+
+#fondo-talleres {
+  background: #FFF2E0;
+}
+
+#titulo-taller {
+  color: black;
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Lobster", sans-serif;
+}
+
+#text-taller {
+  font-size: 20px;
+  text-align: center;
+}
+
+#textotaller2,
+#textotaller1,
+#textotaller3 {
+  color: black;
+}
+
+#titulotaller1,
+#titulotaller2,
+#titulotaller3 {
+  color: black;
+}
+
+#cardtaller1,
+#cardtaller2,
+#cardtaller3 {
+  background-color: white;
+  border: white;
+  border-radius: 8px, 8px;
+  transition: 1s;
+}
+
+#cardtaller1:hover,
+#cardtaller2:hover,
+#cardtaller3:hover {
+  transform: translateY(-3%);
+}
+
+#textotaller1,
+#textotaller2,
+#textotaller3 {
+  font-size: medium;
+}

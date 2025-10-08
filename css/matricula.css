@@ -1,0 +1,153 @@
+/* Matricula --------------------------------------------------------------------------------*/
+
+#fondo-matricula {
+    background-color: #6e78ff;
+}
+
+
+#icon-matricula {
+    font-size: 3rem;
+    color: #6e78ff;
+}
+
+#card-matricula {
+    transition: all 0.5s;
+}
+
+#card-matricula:hover {
+    transform: translateY(-3%);
+}
+
+/*cronograma */
+
+#icon-cronograma {
+    font-size: 3rem;
+    color: #000;
+}
+
+#text-cronograma {
+    transition: all 0.5s;
+    color: #000;
+}
+
+#fecha-cronograma {
+    transition: all 0.5s;
+    color: #000;
+}
+
+#card-cronograma1,
+#card-cronograma2,
+#card-cronograma3,
+#card-cronograma4,
+#card-cronograma5,
+#card-cronograma6,
+#card-cronograma7 {
+    background-color: white;
+    max-width: 25rem;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#card-cronograma1 {
+    border: 2px solid #3674B5;
+    box-shadow: 8px 8px #3674B5;
+}
+
+#card-cronograma2 {
+    border: 2px solid #328E6E;
+    box-shadow: 8px 8px #328E6E;
+}
+
+#card-cronograma3 {
+    border: 2px solid #A62C2C;
+    box-shadow: 8px 8px #A62C2C;
+}
+
+#card-cronograma4 {
+    border: 2px solid #D5451B;
+    box-shadow: 8px 8px #D5451B;
+}
+
+#card-cronograma5 {
+    border: 2px solid #FFAF00;
+    box-shadow: 8px 8px #FFAF00;
+}
+
+#card-cronograma6 {
+    border: 2px solid #A16D28;
+    box-shadow: 8px 8px #A16D28;
+}
+
+#card-cronograma7 {
+    border: 2px solid #B33791;
+    box-shadow: 8px 8px #B33791;
+}
+
+
+#card-cronograma1:hover {
+    transform: translateY(-3%);
+    background-color: #578FCA;
+}
+
+#card-cronograma2:hover {
+    transform: translateY(-3%);
+    background-color: #67AE6E;
+}
+
+#card-cronograma3:hover {
+    transform: translateY(-3%);
+    background-color: #E83F25;
+}
+
+#card-cronograma4:hover {
+    transform: translateY(-3%);
+    background-color: #FF9B45;
+}
+
+#card-cronograma5:hover {
+    transform: translateY(-3%);
+    background-color: #FFDE4D;
+}
+
+#card-cronograma6:hover {
+    transform: translateY(-3%);
+    background-color: #EAA64D;
+}
+
+#card-cronograma7:hover {
+    transform: translateY(-3%);
+    background-color: #C562AF;
+}
+
+#card-cronograma1:hover #text-cronograma,
+#card-cronograma2:hover #text-cronograma,
+#card-cronograma3:hover #text-cronograma,
+#card-cronograma4:hover #text-cronograma,
+#card-cronograma5:hover #text-cronograma,
+#card-cronograma6:hover #text-cronograma,
+#card-cronograma7:hover #text-cronograma {
+    transition: all 0.5s;
+    color: white;
+}
+
+#card-cronograma1:hover #icon-cronograma,
+#card-cronograma2:hover #icon-cronograma,
+#card-cronograma3:hover #icon-cronograma,
+#card-cronograma4:hover #icon-cronograma,
+#card-cronograma5:hover #icon-cronograma,
+#card-cronograma6:hover #icon-cronograma,
+#card-cronograma7:hover #icon-cronograma {
+    transition: all 0.5s;
+    color: white;
+}
+
+#card-cronograma1:hover #fecha-cronograma,
+#card-cronograma2:hover #fecha-cronograma,
+#card-cronograma3:hover #fecha-cronograma,
+#card-cronograma4:hover #fecha-cronograma,
+#card-cronograma5:hover #fecha-cronograma,
+#card-cronograma6:hover #fecha-cronograma,
+#card-cronograma7:hover #fecha-cronograma {
+    transition: all 0.5s;
+    color: white;
+}
